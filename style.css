@@ -1,0 +1,24 @@
+#click-to-browse {
+    color: rgb(25, 137, 241);
+}
+
+/* Put this in your style.css or inline in your HTML <style> */
+[data-lastpass-icon-root],
+[data-lastpass-icon] {
+  display: none !important;
+  visibility: hidden !important;
+  opacity: 0 !important;
+  width: 0 !important;
+  height: 0 !important;
+  pointer-events: none !important;
+  position: absolute !important;
+}
+
+#add-partner, #add-companion {
+    color: rgb(42, 165, 42);
+    border-color: rgb(42, 165, 42);
+}
+
+#clipboard-toast {
+  max-width: 420px;
+}
